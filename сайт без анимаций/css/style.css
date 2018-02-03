@@ -30,6 +30,7 @@ header {
 }
 .heder-button {
 	display: inline-block;
+	padding-top: 40px;
 	text-decoration: none; 
 	box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
 	border-radius: 50px;
@@ -225,9 +226,7 @@ margin-left: 12px;
 .social-text {
 	margin-left: -250px;}
 
-.social-png{
-	padding: 20px 5px;
-	margin-left: -5px;
+
 }
 .social-block {
 	padding-left: 35px;
