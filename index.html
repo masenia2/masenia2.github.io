@@ -13,6 +13,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
 		<!-- Иконка, которая будет на вкладке в браузере -->
 		<link rel="icon" href="/favicon.ico">
+		<link rel="stylesheet" href="css/animate.css">
 		<!-- Заголовок на вкладке в браузере -->
 		<title>Портфолио Антонов Михаил</title>
 
@@ -27,15 +28,15 @@
   <dir class="container">
    <div class="row">
    <div class="col-lg-7">
-   	<img class="header-img" src="css/img/main-img.png" alt="Монитор">
+   	<img class="header-img wow fadeInLeftBig" src="css/img/main-img.png" alt="Монитор">
    </div>
    <div class="col-lg-5">
-   	<p class="headr-pretitle">Веб-разработчик</p>
-	<h1 class="headr-title">Антонов Михаил</h1>
-	<p class=heder-subtitle>Верстка на HTML/CSS <br> Разработка сайтов под ключ</p>
+   	<p class="headr-pretitle wow fadeInRightBig" data-wow-delay="0.1s">Веб-разработчик</p>
+	<h1 class="headr-title wow fadeInRightBig" data-wow-delay="0.2s">Антонов Михаил</h1>
+	<p class="heder-subtitle wow fadeInRightBig" data-wow-delay="0.3s" >Верстка на HTML/CSS <br> Разработка сайтов под ключ</p>
 	<div class="headr-button-block">
-		<a href="https://vk.com/m.antonov2013" class="heder-button">Связаться</a> 
-	<small>*Это бесплатно</small>
+		<a href="https://vk.com/m.antonov2013" class="heder-button wow fadeInRightBig" data-wow-delay="0.4s" >Связаться</a> 
+	<small class="wow fadeInRightBig" data-wow-delay="0.5s" >*Это бесплатно</small>
 	</div>
 
    </div>
@@ -47,7 +48,7 @@
  </header>
  <section class="portfolo">
  	<div class="container">
- 		<div class="portfolio-block">
+ 		<div class="portfolio-block wow fadeIn">
  		<h2 class="portfolio-title">Портфолио</h2>
  		<p class="portfolio-subtitle">Мои работы</p>
  		<div class="row">
@@ -84,12 +85,10 @@
  			<div class="col-md-4">
  				<div class="social-block">
  					<p class="social-text">Подпишитесь:</p> 
- 						<a href="m.antonov2013">
- 							<img src="css/img/socials/facebook-logo-button.png" alt="FACEBOOK">
- 							<img src="css/img/socials/telegram-symbol.png" alt="TELEGRAMM">
- 							<img src="css/img/socials/vk-social-logotype.png" alt="VK">
- 							<img src="css/img/socials/youtube-symbol.png" alt="Youtube">
- 						</a>
+ 						<a class="social-block" href="https://vk.com/m.antonov2013"><img class="wow bounceInDown"  data-wow-delay="0.2s"  src="css/img/socials/facebook-logo-button.png" alt="Facebook"></a>
+ 						<a class="social-png" href="https://vk.com/m.antonov2013"><img class="wow bounceInDown" data-wow-delay="0.3s"  src="css/img/socials/telegram-symbol.png" alt="Telegram"></a>
+ 						<a class="social-png" href="https://vk.com/m.antonov2013"><img class="wow bounceInDown" data-wow-delay="0.4s" src="css/img/socials/vk-social-logotype.png" alt="VK"></a>
+ 						<a class="social-png" data-wow-delay="0.5s" href="https://vk.com/m.antonov2013"><img class="wow bounceInDown" src="css/img/socials/youtube-symbol.png" alt="YouTube"></a>
  				 				</div>
  			</div>
  			<div class="col-md-4">
@@ -102,6 +101,9 @@
  		</div>
  	</div>
  </footer>
-
+<script src="js/wow.min.js"></script>
+<script>
+	new WOW().init();
+</script>
 </body>
 </html>
