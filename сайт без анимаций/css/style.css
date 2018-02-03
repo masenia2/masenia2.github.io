@@ -39,8 +39,15 @@ header {
 	font-weight: 700;
 	padding: 17px 55px;
 	margin-top: 33px;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+}
+.headr-button:hover{
+	box-shadow: none;
 
 }
+
 header small {
 	font-size: 12px;
 	font-weight: 400;
@@ -156,6 +163,13 @@ line-height: 39.8px;
 	border-radius: 50px;
 	padding: 12px 30px;
 	margin-left: -50px;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+}
+.footer-button:hover {
+border-color: #fff;
+color: #3a7dfd;
 }
 .social-text {
 	padding-left: 253px;
@@ -237,7 +251,3 @@ line-height: 39.8px;
 .footer-bec {
 	padding-left: 10px;
 }
-}
-
-
-	
