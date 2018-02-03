@@ -241,6 +241,7 @@ color: #3a7dfd;
 	margin-left: -250px;}
 
 .social-png{
+	max-width:100%
 	padding: 20px 5px;
 	margin-left: -5px;
 }
